@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
+
+
+.backgroundsection3 {
+    background-color: #0D0E11;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundsection3 .contacttext {
+    font-size: 20pt;
+    color: #E3646E;
+    font-family: "Inconsolata", sans-serif;
+    margin-top: 25px;
+}
+
+.backgroundsection3 .commenttext1 {
+    font-size: 22pt;
+    color: #E2E4E9;
+    font-family: "Asap", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 56px;
+}
+
+@media (max-width: 480px) {
+    .backgroundsection3 .contacttext {
+        font-size: 15pt;
+        color: #E3646E;
+        font-family: "Inconsolata", sans-serif;
+        margin-top: 40px;
+    }
+    
+    .backgroundsection3 .commenttext1 {
+        font-size: 17pt;
+        color: #E2E4E9;
+        font-family: "Asap", sans-serif;
+        font-weight: bolder;
+        margin-bottom: 56px;
+    }
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
+
+
+.backgroundsection4 {
+    background-image: url('../../assets/Background_Contacts.png');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundsection4 .contacttext {
+    font-size: 20pt;
+    color: #BB72E9;
+    font-family: "Inconsolata", sans-serif;
+}
+
+.backgroundsection4 .commenttext1 {
+    font-size: 22pt;
+    color: #E2E4E9;
+    font-family: "Asap", sans-serif;
+    font-weight: bolder;
+}
+
+.backgroundsection4 .commenttext2 {
+    font-size: 13pt;
+    color: #C0C4CE;
+    font-family: "Maven Pro", sans-serif;
+    margin-bottom: 48px;
+}
