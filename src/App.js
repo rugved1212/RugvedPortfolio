@@ -1,18 +1,19 @@
-import './App.css';
-import Section1 from './pages/jsFiles/section1';
-import Section2 from './pages/jsFiles/section2';
-import Section3 from './pages/jsFiles/section3';
-import Section4 from './pages/jsFiles/section4';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+import LandingPage from "./pages/jsFiles/LandingPage";
+import TermsOfUse from "./pages/jsFiles/TermsOfUse";
+import PrivacyPolicy from "./pages/jsFiles/PrivacyPolicy";
 
 function App() {
-
   return (
-    <>
-      <Section1/>
-      <Section2/>
-      <Section3/>
-      <Section4/>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/terms-of-use" element={<TermsOfUse />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      </Routes>
+    </Router>
   );
 }
 
