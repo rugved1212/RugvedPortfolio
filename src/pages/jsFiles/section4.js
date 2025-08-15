@@ -9,6 +9,7 @@ import github_icon from '../../assets/social_media_icons/GithubLogo.png'
 import email_icon from '../../assets/social_media_icons/EnvelopeSimple.png'
 import privacy_policy_icon from '../../assets/social_media_icons/privacy_policy.png';
 import terms_of_use_icon from '../../assets/social_media_icons/terms_of_use.png';
+import delete_icon from '../../assets/social_media_icons/delete_icon.png';
 
 const SocialMediaButtons = ({ mediaTitle, img, link, isInternal }) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -93,6 +94,7 @@ const Section4 = () => {
                 <SocialMediaButtons mediaTitle={'Email'} img={email_icon} link={'https://mail.google.com/mail/?view=cm&fs=1&to=rugvedapraj1@gmail.com'} />
                 <SocialMediaButtons mediaTitle={'Privacy Policy'} img={privacy_policy_icon} link={'/privacy-policy'} isInternal />
                 <SocialMediaButtons mediaTitle={'Terms of Use'} img={terms_of_use_icon} link={'/terms-of-use'} isInternal />
+                <SocialMediaButtons mediaTitle={'Delete Account'} img={delete_icon} link={'/delete-account'} isInternal />
             </div>
         </div>
     );
