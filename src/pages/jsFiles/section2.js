@@ -1,5 +1,5 @@
 import "../cssFiles/section2.css";
-import React, { useState } from "react";
+import { useState } from "react";
 
 import buzilogBg from "../../assets/projects_bgs/buzilog_bg.png";
 import ffcSurveyAppBg from "../../assets/projects_bgs/ffc_survey_app_bg.png";
@@ -8,8 +8,6 @@ import buzitaskBg from "../../assets/projects_bgs/buzitask_bg.jpg";
 import basecraftBg from "../../assets/projects_bgs/basecraft_bg.png";
 import battleSpaceBg from "../../assets/projects_bgs/battle_space_bg.png";
 import godOfWarBg from "../../assets/projects_bgs/godofwar_bg.jpg";
-import weatherBg from "../../assets/projects_bgs/weather_bg.png";
-import calculatorBg from "../../assets/projects_bgs/calculator_Bg.png";
 import dream11Bg from "../../assets/projects_bgs/dream11_Bg.png";
 import sangeetBg from "../../assets/projects_bgs/sangeet_Bg.png";
 import zombivaliBg from "../../assets/projects_bgs/zombivali_Bg.png";

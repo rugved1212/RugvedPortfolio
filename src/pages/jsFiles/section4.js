@@ -4,12 +4,12 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // ✅ Import for navigation
 import link_icon from '../../assets/social_media_icons/ArrowUpRight.png'
 import linkedin_icon from '../../assets/social_media_icons/LinkedinLogo.png'
-import instagram_icon from '../../assets/social_media_icons/InstagramLogo.png'
 import github_icon from '../../assets/social_media_icons/GithubLogo.png'
 import email_icon from '../../assets/social_media_icons/EnvelopeSimple.png'
-import privacy_policy_icon from '../../assets/social_media_icons/privacy_policy.png';
-import terms_of_use_icon from '../../assets/social_media_icons/terms_of_use.png';
-import delete_icon from '../../assets/social_media_icons/delete_icon.png';
+import medium_icon from '../../assets/social_media_icons/medium.png'
+// import privacy_policy_icon from '../../assets/social_media_icons/privacy_policy.png';
+// import terms_of_use_icon from '../../assets/social_media_icons/terms_of_use.png';
+// import delete_icon from '../../assets/social_media_icons/delete_icon.png';
 
 const SocialMediaButtons = ({ mediaTitle, img, link, isInternal }) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -50,8 +50,8 @@ const SocialMediaButtons = ({ mediaTitle, img, link, isInternal }) => {
         >
             <div
                 style={{
-                    width: '28px',
-                    height: '28px',
+                    width: '24px',
+                    height: '24px',
                     marginLeft: '20px',
                     marginRight: '20px',
                     backgroundImage: `url(${img})`,
@@ -91,10 +91,11 @@ const Section4 = () => {
             }}>
                 <SocialMediaButtons mediaTitle={'Linkedin'} img={linkedin_icon} link={'https://www.linkedin.com/in/rugvedapraj'} />
                 <SocialMediaButtons mediaTitle={'Github'} img={github_icon} link={'https://github.com/rugved1212?tab=repositories'} />
+                <SocialMediaButtons mediaTitle={'Medium'} img={medium_icon} link={'https://rugvedapraj.medium.com/'} />
                 <SocialMediaButtons mediaTitle={'Email'} img={email_icon} link={'https://mail.google.com/mail/?view=cm&fs=1&to=rugvedapraj1@gmail.com'} />
-                <SocialMediaButtons mediaTitle={'Privacy Policy'} img={privacy_policy_icon} link={'/privacy-policy'} isInternal />
+                {/* <SocialMediaButtons mediaTitle={'Privacy Policy'} img={privacy_policy_icon} link={'/privacy-policy'} isInternal />
                 <SocialMediaButtons mediaTitle={'Terms of Use'} img={terms_of_use_icon} link={'/terms-of-use'} isInternal />
-                <SocialMediaButtons mediaTitle={'Delete Account'} img={delete_icon} link={'/delete-account'} isInternal />
+                <SocialMediaButtons mediaTitle={'Delete Account'} img={delete_icon} link={'/delete-account'} isInternal /> */}
             </div>
         </div>
     );
