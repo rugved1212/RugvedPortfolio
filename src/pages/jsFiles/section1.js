@@ -55,7 +55,7 @@ const Section1 = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       if (items.length > 0) {
-        const [itemToMove] = items;
+        // const [itemToMove] = items;
         setItems((prevItems) => {
           const updatedItems = prevItems.slice(1);
           const nextItem =
