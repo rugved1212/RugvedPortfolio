@@ -1,16 +1,18 @@
 import "../cssFiles/section2.css";
 import { useState } from "react";
 
-import buzilogBg from "../../assets/projects_bgs/buzilog_bg.png";
 import ffcSurveyAppBg from "../../assets/projects_bgs/ffc_survey_app_bg.png";
-import buzipmsBg from "../../assets/projects_bgs/buzipms_bg.jpg";
-import buzitaskBg from "../../assets/projects_bgs/buzitask_bg.jpg";
+import bizmonit from "../../assets/projects_bgs/bizmonit.png";
 import basecraftBg from "../../assets/projects_bgs/basecraft_bg.png";
 import battleSpaceBg from "../../assets/projects_bgs/battle_space_bg.png";
 import godOfWarBg from "../../assets/projects_bgs/godofwar_bg.jpg";
 import dream11Bg from "../../assets/projects_bgs/dream11_Bg.png";
 import sangeetBg from "../../assets/projects_bgs/sangeet_Bg.png";
 import zombivaliBg from "../../assets/projects_bgs/zombivali_Bg.png";
+import kindpocket from "../../assets/projects_bgs/kindpocket.png";
+import benow from "../../assets/projects_bgs/benow.png";
+import muthoot from "../../assets/projects_bgs/muthhot.jpg";
+import dartgenx from "../../assets/projects_bgs/dartgenx.jpg";
 
 import {
   Typography,
@@ -316,6 +318,99 @@ const Section2 = () => {
             justifyContent="center"
             alignItems="center"
           >
+
+            <Grid2>
+              <Item
+                title="eSwarna - Digital Gold"
+                description="eSwarna is a digital gold savings platform that enables users to invest in 24K 99.9% purity gold in small denominations, starting as low as ₹1. The app functions as a secure digital gold wallet where users can buy, sell, and store gold at real-time market rates, with the flexibility to redeem it as cash, coins, or jewellery. Backed by the trust of Muthoot Pappachan Group, the platform ensures transparency, security, and ease of use for modern gold investors."
+                img={muthoot}
+                role={[
+                  "I led the end-to-end development and deployment of the mobile application",
+                  "Building a secure and scalable solution for real-time gold transactions",
+                  "Implementing seamless buy/sell flows",
+                  "Integrating live gold pricing APIs",
+                ]}
+                links={[
+                  {
+                    label: "Play Store",
+                    url: "https://play.google.com/store/apps/details?id=com.gold.muthootandroidapp",
+                  },
+                  {
+                    label: "App Store",
+                    url: "https://apps.apple.com/in/app/eswarna-digital-gold/id1556687696",
+                  },
+                ]}
+              />
+            </Grid2>
+
+            <Grid2>
+              <Item
+                title="DartGenX"
+                description="DartGenX is a command-line tool that simplifies Dart and Flutter development by automating code generation and reducing repetitive boilerplate tasks. It helps developers quickly scaffold structured code using customizable templates, improving productivity and maintaining consistency across projects."
+                img={dartgenx}
+                role={[
+                  "Build entire tools for ease of use and seamless integration into existing workflows, DartGenX enhances development speed for both individual developers and teams."
+                ]}
+                links={[
+                  {
+                    label: "Play Store",
+                    url: "https://play.google.com/store/apps/details?id=com.gold.muthootandroidapp",
+                  },
+                  {
+                    label: "App Store",
+                    url: "https://apps.apple.com/in/app/eswarna-digital-gold/id1556687696",
+                  },
+                ]}
+              />
+            </Grid2>
+
+            <Grid2>
+              <Item
+                title="Benow Merchant App"
+                description="Benow is India’s leading Buy Now, Pay Later (BNPL) platform, redefining affordability payments by seamlessly connecting customers, merchants, OEMs/Brands, and Banks/Lenders."
+                img={benow}
+                role={[
+                  "Developing the in-app scanner module to scan IMEI and SKU codes of products",
+                  "Mobile app notifications",
+                  "Creating a seamless user experience for affordability-based payments",
+                ]}
+                links={[
+                  {
+                    label: "Play Store",
+                    url: "https://play.google.com/store/apps/details?id=in.benow.android",
+                  },
+                  {
+                    label: "App Store",
+                    url: "https://apps.apple.com/in/app/benow-merchant-app/id1644681110",
+                  },
+                ]}
+              />
+            </Grid2>
+
+            <Grid2>
+              <Item
+                title="Kindpocket"
+                description="KindPocket – Affordable Medicine Resale App, Designed and developed a mobile application using Flutter that allows users to buy and sell unused, unexpired medicines at lower prices. The platform aims to reduce medical waste and make essential medicines more affordable and accessible for those in need."
+                img={kindpocket}
+                role={[
+                  "Payment gateway integration",
+                  "Collaborated with backend team for seamless data sync",
+                  "Order placement flow",
+                  "Cancel order flow",
+                ]}
+                links={[
+                  {
+                    label: "Play Store",
+                    url: "https://play.google.com/store/apps/details?id=com.wellness.kindpocket&pcampaignid=web_share",
+                  },
+                  {
+                    label: "App Store",
+                    url: "https://apps.apple.com/in/app/kindpocket/id6758839737",
+                  },
+                ]}
+              />
+            </Grid2>
+
             <Grid2>
               <Item
                 title="FFCorp Survey App"
@@ -396,9 +491,9 @@ const Section2 = () => {
 
             <Grid2>
               <Item
-                title="BuziLogs"
-                description="A goal tracking and productivity enhancement app, Buzilog empowers users to define, track, and reflect on both personal and professional goals."
-                img={buzilogBg}
+                title="Bizmonit"
+                description="A goal tracking and productivity enhancement app, Bizmonit empowers users to define, track, and reflect on both personal and professional goals."
+                img={bizmonit}
                 role={[
                   "Built shipment tracking & real-time updates",
                   "Enhanced analytics dashboard for business insights",
@@ -408,59 +503,11 @@ const Section2 = () => {
                 links={[
                   {
                     label: "Play Store",
-                    url: "https://play.google.com/store/apps/details?id=com.nimap.buzilog&hl=en_US",
+                    url: "https://play.google.com/store/apps/details?id=com.nimap.bizmonit",
                   },
                   {
                     label: "App Store",
-                    url: "https://apps.apple.com/in/app/buzilog/id6740628769",
-                  },
-                ]}
-              />
-            </Grid2>
-
-            <Grid2>
-              <Item
-                title="BuziPMS"
-                description="Developed as a streamlined project management system tailored for small and medium teams, BuziPMS consolidates task assignment, progress tracking, and team collaboration into a single mobile interface. I architected key modules for project setup, milestone tracking, and real-time updates, prioritizing responsiveness and clarity to help users manage workloads efficiently. The app aims to enhance transparency and operational control across client-facing and internal projects"
-                img={buzipmsBg}
-                role={[
-                  "Contributed task allocation & milestone tracking features",
-                  "Enhanced team collaboration modules",
-                  "Improved UI for dashboards",
-                  "Collaborated with backend team for seamless data sync",
-                ]}
-                links={[
-                  {
-                    label: "Play Store",
-                    url: "https://play.google.com/store/apps/details?id=com.nimap.buzipms&hl=en_US",
-                  },
-                  {
-                    label: "App Store",
-                    url: "https://apps.apple.com/in/app/buzipms/id6748728304",
-                  },
-                ]}
-              />
-            </Grid2>
-
-            <Grid2>
-              <Item
-                title="BuziTask"
-                description="BuziTask delivers a focused task management tool aligned with daily productivity needs. I contributed to designing a lightweight to‑do app enabling users to capture tasks, set priorities, manage deadlines, and track completion in a clean, minimalist interface. The app supports categorization and quick logging, enabling professionals to plan their day effectively and stay on top of priorities."
-                img={buzitaskBg}
-                role={[
-                  "Designed clean & minimalist UI/UX",
-                  "Implemented task scheduling and reminders",
-                  "Built categorization & priority system",
-                  "Synced data across devices",
-                ]}
-                links={[
-                  {
-                    label: "Play Store",
-                    url: "https://play.google.com/store/apps/details?id=com.nimap.buzitask&hl=en_US",
-                  },
-                  {
-                    label: "App Store",
-                    url: "https://apps.apple.com/in/app/buzitask/id6749172343",
+                    url: "https://apps.apple.com/in/app/bizmonit/id6753746562",
                   },
                 ]}
               />
